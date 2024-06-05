@@ -18,12 +18,12 @@ This is a simple Java application designed to recommend the number of training u
 Swimmer
 The Swimmer class encapsulates the data for a swimmer, including their first name, surname, age, and recommended training units. It contains the following methods:
 
-Swimmer(String name, String surname, int age): Constructor that initializes the swimmer's information and calculates the training units.
-String getName(): Returns the swimmer's first name.
-String getSurname(): Returns the swimmer's surname.
-int getAge(): Returns the swimmer's age.
-int getTrainingUnits(): Returns the recommended number of training units.
-String toString(): Returns a string representation of the swimmer's information and training recommendation.
+- Swimmer(String name, String surname, int age): Constructor that initializes the swimmer's information and calculates the training units.
+- String getName(): Returns the swimmer's first name.
+- String getSurname(): Returns the swimmer's surname.
+- int getAge(): Returns the swimmer's age.
+- int getTrainingUnits(): Returns the recommended number of training units.
+- String toString(): Returns a string representation of the swimmer's information and training recommendation.
 swimCoachDriver
 
 The swimCoachDriver class contains the main method which handles user input and creates a Swimmer object to provide the training recommendation.
