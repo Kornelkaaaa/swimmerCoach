@@ -1,4 +1,3 @@
-
 public class Swimmer {
 	// Private variables to store swimmer's information
 	private String name;
