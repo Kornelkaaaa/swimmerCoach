@@ -15,9 +15,13 @@ public class swimCoachDriver {
 		System.out.print("Enter the swimmer's age: ");
 		int age = kbd.nextInt();
 		
-		Swimmer swimmer = new Swimmer(name, lastName, age);
-		
-		System.out.println(swimmer.toString());
+		// Validate the age input
+		if (age < 14 || age > 25) {
+			System.out.println("This program is for swimmers aged 14 to 25.");
+		} else {
+			Swimmer swimmer = new Swimmer(name, lastName, age);
+			System.out.println(swimmer.toString());
+		}
 		
 		kbd.close();
 	}
