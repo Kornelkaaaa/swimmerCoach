@@ -7,7 +7,7 @@ public class Swimmer {
 
 // Constructor to initialize a Swimmer object with the provided name, last name, and age
 // It also calculates the training units based on the age
-public Swimmer(String name, String lastName, int agee) {
+public Swimmer(String name, String lastName, int age) {
 	this.name = name;
 	this.lastName = lastName;
 	this.age = age;
@@ -54,7 +54,7 @@ public int getTrainingUnits() {
 
 // Overridden toString method to provide a string representation of the Swimmer object.
 // It returns a message indicating the recommended training units or if the age is out of range.
-//@Override
+@Override
 public String toString() {
 	if (trainingUnits == -1) {
 		return "This program is for swimmers aged 14 to 25.";
